@@ -62,22 +62,4 @@ def tic_tac_toe():
 
     while not end:
         draw()
-        end = check_board()
-        if end == True:
-            break
-        print("Player 1 choose where to place a cross")
-        p1()
-        print()
-        draw()
-        end = check_board()
-        if end == True:
-            break
-        print("Player 2 choose where to place a nought")
-        p2()
-        print()
-
-    if input("Play again (y/n)\n") == "y":
-        print()
-        tic_tac_toe()
-
-tic_tac_toe()
+        end 
